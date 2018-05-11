@@ -15,10 +15,12 @@ def Strongpass(password):
                 return False
         if sum(flag) == 3:
             return True
+        else:
+            return False
     else:
         return False
 
 
 if __name__ == '__main__':
     print(Strongpass('A1213pok'))
-    print(Strongpass('bAse730onE4'))
+    print(Strongpass('asasasasasasasaas'))
